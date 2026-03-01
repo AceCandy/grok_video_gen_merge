@@ -7,7 +7,6 @@ out/
 *.mp4
 *.webm
 *.gif
-*.png
 *.jpg
 .env
 .env.local

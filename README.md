@@ -1,8 +1,7 @@
-# @remotion/skills
+# grok视频生成合并
 
-## Usage
-
-This is an internal package and has no documentation.
+![1](/image/1.png)
+![2](/image/2.png)
 
 ## Local dev
 
@@ -10,6 +9,10 @@ This is an internal package and has no documentation.
 - `npm run dev`
 
 打开浏览器访问 Vite 提示的地址（默认 `http://localhost:5173`）。
+
+## 分镜脚本
+用来在别的地方对话生成分镜脚本（为了更方便，项目页面本身可以进行生成），可以带上图片，效果更好
+- 帮我生成一组分镜提示词，需要注意的是，分镜不是按照画面分镜，而是按照每六秒钟的画面分镜。输出结构要求：\n{\n  \"title\": string,\n  \"style\": {\"overall\": string, \"characters\": string, \"camera\": string, \"lighting\": string},\n  \"segments\": [\n    {\n      \"segment_index\": number,\n      \"segment_title\": string,\n      \"segment_summary\": string,\n      \"duration_s\": number,\n      \"first_frame_prompt\": string,\n      \"video_prompt\": string,\n      \"shots\": [\n        {\"shot_index\": number, \"duration_s\": number, \"visual\": string, \"camera\": string, \"action\": string, \"dialogue\": string}\n      ]\n    }\n  ]\n}\n。语言：全部使用中文。视频内容为一个美女在有霓虹灯光的街道上转身，显摆一下身材后给观众一个飞吻
 
 ## Remotion（仅用于合并）
 
