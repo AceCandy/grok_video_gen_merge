@@ -1,0 +1,30 @@
+{
+  "clips": [
+    {
+      "src": "https://grok.huan666.de/v1/files/video/users/b34ac97b-ce10-4d90-a7de-3bc5422b3e45/generated/2573fce0-d803-4aa8-b1ff-a10c0356f2cd/generated_video.mp4",
+      "duration_s": 6
+    },
+    {
+      "src": "https://grok.huan666.de/v1/files/video/users/d107dea5-99e9-43a0-813c-e381b9a26e64/generated/caf16c5b-c64d-4e97-9159-05b723855237/generated_video.mp4",
+      "duration_s": 6
+    },
+    {
+      "src": "https://grok.huan666.de/v1/files/video/users/5231bd89-4e69-4f2b-bdcd-7cc53afa1da6/generated/38205ac2-4274-4426-97e9-326c432d27b4/generated_video.mp4",
+      "duration_s": 6
+    },
+    {
+      "src": "https://grok.huan666.de/v1/files/video/users/0151e96e-22b4-41c9-8eae-783a497bee0b/generated/86707974-bd28-4685-95e4-dbf377cf385b/generated_video.mp4",
+      "duration_s": 6
+    },
+    {
+      "src": "https://grok.huan666.de/v1/files/video/users/cde946cb-78ac-4781-915a-726ba4718a7f/generated/f54030dc-47e5-4aca-b804-28118e0693db/generated_video.mp4",
+      "duration_s": 6
+    },
+    {
+      "src": "https://grok.huan666.de/v1/files/video/users/f0ee7fad-064e-4f00-9137-400270dc1094/generated/5851626a-8cc3-44cb-af78-22495e77a6d0/generated_video.mp4",
+      "duration_s": 6
+    }
+  ],
+  "backgroundColor": "black",
+  "fit": "cover"
+}

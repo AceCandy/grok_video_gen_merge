@@ -11,3 +11,8 @@ out/
 *.jpg
 .env
 .env.local
+
+# Local merge artifacts
+public/prefetched/
+merge-props.json
+merge-props.local.json
