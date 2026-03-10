@@ -15,3 +15,5 @@ out/
 public/prefetched/
 merge-props.json
 merge-props.local.json
+
+.omc/
